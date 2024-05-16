@@ -25,3 +25,11 @@
 .projectH2 {
     @apply text-center text-[#6f42c1] my-5 text-2xl font-bold
 }
+
+.contactLabel {
+    @apply block mb-2 text-[#333] font-bold
+}
+
+.contactInput {
+   @apply border border-solid border-[#ccc] w-full p-2.5 mb-5 rounded-md
+}

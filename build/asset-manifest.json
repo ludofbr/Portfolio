@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/PortfolioV2/static/css/main.78796b58.css",
+    "main.js": "/PortfolioV2/static/js/main.f7fe5cda.js",
+    "static/js/453.1407b060.chunk.js": "/PortfolioV2/static/js/453.1407b060.chunk.js",
+    "static/media/pomodoro-accueil.webp": "/PortfolioV2/static/media/pomodoro-accueil.83070c31e1ddf588c60b.webp",
+    "static/media/routine-accueil.webp": "/PortfolioV2/static/media/routine-accueil.469b9bb14c85cfa828a9.webp",
+    "static/media/zaap-accueil.webp": "/PortfolioV2/static/media/zaap-accueil.216252d97eec93aab8ce.webp",
+    "static/media/carfind-accueil.webp": "/PortfolioV2/static/media/carfind-accueil.e1244ffa972d462dbc57.webp",
+    "static/media/orangeGambling-accueil.webp": "/PortfolioV2/static/media/orangeGambling-accueil.2bb6b0bf21c270f27369.webp",
+    "static/media/screen_zaap.png": "/PortfolioV2/static/media/screen_zaap.4ae1c3d5d1d38d4b378e.png",
+    "index.html": "/PortfolioV2/index.html",
+    "main.78796b58.css.map": "/PortfolioV2/static/css/main.78796b58.css.map",
+    "main.f7fe5cda.js.map": "/PortfolioV2/static/js/main.f7fe5cda.js.map",
+    "453.1407b060.chunk.js.map": "/PortfolioV2/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78796b58.css",
+    "static/js/main.f7fe5cda.js"
+  ]
+}

@@ -21,36 +21,36 @@ function HOME() {
         <div></div>
       </div>
       <Nav> 
-          <NavItem href={ROUTES.HOME} isActive>Accueil</NavItem>
-          <NavItem href={ROUTES.PROJETS}isActive>Projets</NavItem>
-          <NavItem href={ROUTES.ABOUT}isActive>À propos</NavItem>
-          <NavItem href={ROUTES.CONTACT}isActive>Contact</NavItem>
+          <NavItem to={ROUTES.HOME} isActive>Accueil</NavItem>
+          <NavItem to={ROUTES.PROJETS}isActive>Projets</NavItem>
+          <NavItem to={ROUTES.ABOUT}isActive>À propos</NavItem>
+          <NavItem to={ROUTES.CONTACT}isActive>Contact</NavItem>
       </Nav>
     </Header>
 
       <section className="main grid grid-rows-2 gap-5 p-10">
       <section class="presentationContainer flex flex-wrap justify-center gap-3">
-      <PresentationCard href={ROUTES.ZAAP}>
+      <PresentationCard to={ROUTES.ZAAP}>
           <PresentationTitle>Zaap</PresentationTitle>
            <img src={zaapLogo} alt="Gestionnaire de fenêtre windows pour le jeu Dofus" className='presentationImg'/>
       </PresentationCard>
 
-      <PresentationCard href="#">
+      <PresentationCard to="#">
       <PresentationTitle>CarFind</PresentationTitle>
             <img src={carfindLogo} alt="Retrouver sa voiture au dernier emplacement indiqué" className='presentationImg'/>
           </PresentationCard>
 
-          <PresentationCard href="#">
+          <PresentationCard to="#">
           <PresentationTitle>Pomodoro</PresentationTitle>
             <img src={pomodoroLogo} alt="Application timer basé sur la méthode de travail pomodoro" className='presentationImg'/>
           </PresentationCard>
 
-          <PresentationCard href="#">
+          <PresentationCard to="#">
           <PresentationTitle>RoutineGest</PresentationTitle>
             <img src={routinegestLogo} alt="Gestionnaire de routine" className='presentationImg'/>
           </PresentationCard>
 
-          <PresentationCard href="#">
+          <PresentationCard to="#">
           <PresentationTitle>Orange Gambling</PresentationTitle>
             <img src={orangegamblingLogo} alt="Jeux en ligne" className='presentationImg'/>
           </PresentationCard>

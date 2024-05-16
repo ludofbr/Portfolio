@@ -1,6 +1,7 @@
 import React from 'react';
 import ROUTES from './routes';
 import {Layout, Header, Nav, NavItem, Footer, Box, Desc} from './style.js';
+import { Link } from 'react-router-dom';
 
 function PROJETS() {
   return (
@@ -13,10 +14,10 @@ function PROJETS() {
             <div></div>
           </div>
           <Nav> 
-          <NavItem href={ROUTES.HOME} isActive>Accueil</NavItem>
-          <NavItem href={ROUTES.PROJETS}isActive>Projets</NavItem>
-          <NavItem href={ROUTES.ABOUT}isActive>À propos</NavItem>
-          <NavItem href={ROUTES.CONTACT}isActive>Contact</NavItem>
+          <NavItem to={ROUTES.HOME} isActive>Accueil</NavItem>
+          <NavItem to={ROUTES.PROJETS}isActive>Projets</NavItem>
+          <NavItem to={ROUTES.ABOUT}isActive>À propos</NavItem>
+          <NavItem to={ROUTES.CONTACT}isActive>Contact</NavItem>
         </Nav>
     </Header>
 
@@ -27,7 +28,7 @@ function PROJETS() {
                 Zaap est une application conçue pour simplifier la gestion de plusieurs comptes dans le jeu Dofus, permettant aux joueurs d'assigner et d'utiliser des raccourcis clavier pour basculer efficacement entre différents personnages. En intégrant des technologies web pour l'interface utilisateur et Python en backend, Zaap offre une solution robuste pour améliorer la fluidité et l'efficacité de l'expérience de jeu, en se concentrant sur une navigation rapide et intuitive entre les fenêtres de jeu.
             </p>
             
-        <button className='descBtn'><a href={ROUTES.ZAAP} class="link">En savoir plus</a></button>
+        <button className='descBtn'><Link to={ROUTES.ZAAP} class="link">En savoir plus</Link></button>
         </Box>
 
         <Box>
@@ -37,7 +38,7 @@ function PROJETS() {
                 à venir
             </p>
         
-        <button className='descBtn'><a href="#">En savoir plus</a></button>
+        <button className='descBtn'><Link to="#">En savoir plus</Link></button>
          </Box>
 
         <Box>
@@ -47,7 +48,7 @@ function PROJETS() {
                 à venir
             </p>
         
-        <button className='descBtn'><a href="#">En savoir plus</a></button>
+        <button className='descBtn'><Link to="#">En savoir plus</Link></button>
          </Box>
 
         <Box>
@@ -56,7 +57,7 @@ function PROJETS() {
                 à venir
             </p>
 
-        <button className='descBtn'><a href="#">En savoir plus</a></button>
+        <button className='descBtn'><Link to="#">En savoir plus</Link></button>
          </Box>
 
          <Box>
@@ -66,7 +67,7 @@ function PROJETS() {
                 à venir
             </p>
 
-        <button className='descBtn'><a href="#">En savoir plus</a></button>
+        <button className='descBtn'><Link to="#">En savoir plus</Link></button>
          </Box>
 
     <Footer>

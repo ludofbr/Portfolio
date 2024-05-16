@@ -13,10 +13,10 @@ function ZAAP() {
             <div></div>
           </div>
         <Nav> 
-          <NavItem href={ROUTES.HOME} isActive>Accueil</NavItem>
-          <NavItem href={ROUTES.PROJETS}isActive>Projets</NavItem>
-          <NavItem href={ROUTES.ABOUT}isActive>À propos</NavItem>
-          <NavItem href={ROUTES.CONTACT}isActive>Contact</NavItem>
+        <NavItem to={ROUTES.HOME} isActive>Accueil</NavItem>
+          <NavItem to={ROUTES.PROJETS}isActive>Projets</NavItem>
+          <NavItem to={ROUTES.ABOUT}isActive>À propos</NavItem>
+          <NavItem to={ROUTES.CONTACT}isActive>Contact</NavItem>
         </Nav>
     </Header>
         <ProjectBox>

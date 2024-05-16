@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Layout = ({ children }) => {
   return (
@@ -26,25 +27,25 @@ const Nav = ({ children }) => {
     </div>
   );
 };
-const NavItem = ({ href, isActive, children }) => {
+const NavItem = ({ to, isActive, children }) => {
   return (
     <li>
-      <a
-        href={href}
+      <Link
+        to={to}
         className={`block px-3 py-2 ${isActive ? 'bg-[#37BCF8] text-white' : 'bg-slate-50'}`}
       >
         {children}
-      </a>
+      </Link>
     </li>
   );
 };
-const PresentationCard = ({ href, children }) => {
+const PresentationCard = ({ to, children }) => {
   return (
-    <a href={href}>
+    <Link to={to}>
 <div className="relative flex flex-grow flex-shrink basis-[200px] m-1 border border-gray-300 rounded-lg overflow-hidden transition-shadow transition-transform w-full max-w-[310px] shadow hover:translate-y-[-5px] hover:shadow-lg">
       {children}
     </div>
-    </a>
+    </Link>
   );
 };
 const PresentationTitle = ({children }) => {

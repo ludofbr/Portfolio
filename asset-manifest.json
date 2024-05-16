@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/PortfolioV2/static/css/main.3c73b412.css",
-    "main.js": "/PortfolioV2/static/js/main.f44c2022.js",
-    "static/js/453.1407b060.chunk.js": "/PortfolioV2/static/js/453.1407b060.chunk.js",
-    "static/media/pomodoro-accueil.webp": "/PortfolioV2/static/media/pomodoro-accueil.83070c31e1ddf588c60b.webp",
-    "static/media/routine-accueil.webp": "/PortfolioV2/static/media/routine-accueil.469b9bb14c85cfa828a9.webp",
-    "static/media/zaap-accueil.webp": "/PortfolioV2/static/media/zaap-accueil.216252d97eec93aab8ce.webp",
-    "static/media/carfind-accueil.webp": "/PortfolioV2/static/media/carfind-accueil.e1244ffa972d462dbc57.webp",
-    "static/media/orangeGambling-accueil.webp": "/PortfolioV2/static/media/orangeGambling-accueil.2bb6b0bf21c270f27369.webp",
-    "static/media/screen_zaap.png": "/PortfolioV2/static/media/screen_zaap.4ae1c3d5d1d38d4b378e.png",
-    "index.html": "/PortfolioV2/index.html",
-    "main.3c73b412.css.map": "/PortfolioV2/static/css/main.3c73b412.css.map",
-    "main.f44c2022.js.map": "/PortfolioV2/static/js/main.f44c2022.js.map",
-    "453.1407b060.chunk.js.map": "/PortfolioV2/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.3c73b412.css",
+    "main.js": "/Portfolio/static/js/main.1a7ee512.js",
+    "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/pomodoro-accueil.webp": "/Portfolio/static/media/pomodoro-accueil.83070c31e1ddf588c60b.webp",
+    "static/media/routine-accueil.webp": "/Portfolio/static/media/routine-accueil.469b9bb14c85cfa828a9.webp",
+    "static/media/zaap-accueil.webp": "/Portfolio/static/media/zaap-accueil.216252d97eec93aab8ce.webp",
+    "static/media/carfind-accueil.webp": "/Portfolio/static/media/carfind-accueil.e1244ffa972d462dbc57.webp",
+    "static/media/orangeGambling-accueil.webp": "/Portfolio/static/media/orangeGambling-accueil.2bb6b0bf21c270f27369.webp",
+    "static/media/screen_zaap.png": "/Portfolio/static/media/screen_zaap.4ae1c3d5d1d38d4b378e.png",
+    "index.html": "/Portfolio/index.html",
+    "main.3c73b412.css.map": "/Portfolio/static/css/main.3c73b412.css.map",
+    "main.1a7ee512.js.map": "/Portfolio/static/js/main.1a7ee512.js.map",
+    "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3c73b412.css",
-    "static/js/main.f44c2022.js"
+    "static/js/main.1a7ee512.js"
   ]
 }

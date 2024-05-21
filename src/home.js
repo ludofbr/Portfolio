@@ -28,7 +28,7 @@ function HOME() {
       </Nav>
     </Header>
 
-      <section className="main grid grid-rows-2 gap-5 p-10">
+      <section className="main flex flex-row gap-5 p-10">
       <section class="presentationContainer flex flex-wrap justify-center gap-3">
       <PresentationCard to={ROUTES.ZAAP}>
           <PresentationTitle>Zaap</PresentationTitle>
